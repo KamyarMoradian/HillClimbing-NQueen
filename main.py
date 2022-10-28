@@ -16,4 +16,4 @@ if __name__ == "__main__":
         result = hill_climbing_random_restart(problem)
         if problem.goal_test(result):
             cnt += 1
-    print(" - Accuracy: %2d/%d\tRunning time: %f"%(cnt, times, time()-start))
+    print(" - Accuracy: %2d/%d\tRunning time: %f" % (cnt, times, time()-start))
